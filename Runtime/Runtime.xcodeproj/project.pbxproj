@@ -1,0 +1,140 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		03EA8F82222E94090012342B /* objc-class.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objc-class.h"; sourceTree = "<group>"; };
+		03EA8F83222E94090012342B /* objc-class.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "objc-class.m"; sourceTree = "<group>"; };
+		03EA8F84222E94B30012342B /* Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocol.h; sourceTree = "<group>"; };
+		03EA8F85222E94B30012342B /* Protocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Protocol.m; sourceTree = "<group>"; };
+		03EA8F86222E96920012342B /* Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		03EA8F87222E96920012342B /* Object.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Object.m; sourceTree = "<group>"; };
+		03EA8F88222E96C80012342B /* error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		03EA8F8A222E96FE0012342B /* hashtable2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hashtable2.h; sourceTree = "<group>"; };
+		03EA8F8B222E96FE0012342B /* hashtable2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hashtable2.m; sourceTree = "<group>"; };
+		03EA8F8C222E97310012342B /* maptable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maptable.h; sourceTree = "<group>"; };
+		03EA8F8D222E97310012342B /* maptable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maptable.m; sourceTree = "<group>"; };
+		03EA8F8E222E976F0012342B /* objc-api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objc-api.h"; sourceTree = "<group>"; };
+		03EA8F8F222E97A10012342B /* objc-config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objc-config.h"; sourceTree = "<group>"; };
+		03EA8F90222E97A10012342B /* objc-config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "objc-config.m"; sourceTree = "<group>"; };
+		03EA8F91222E97C70012342B /* objc-errors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objc-errors.h"; sourceTree = "<group>"; };
+		03EA8F92222E97C70012342B /* objc-errors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "objc-errors.m"; sourceTree = "<group>"; };
+		03EA8F93222E97EA0012342B /* objc-exception.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objc-exception.h"; sourceTree = "<group>"; };
+		03EA8F94222E97EA0012342B /* objc-exception.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "objc-exception.m"; sourceTree = "<group>"; };
+		03EA8F95222E98170012342B /* objc-file.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objc-file.h"; sourceTree = "<group>"; };
+		03EA8F96222E98170012342B /* objc-file.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "objc-file.m"; sourceTree = "<group>"; };
+		03EA8F97222E983F0012342B /* objc-load.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objc-load.h"; sourceTree = "<group>"; };
+		03EA8F98222E983F0012342B /* objc-load.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "objc-load.m"; sourceTree = "<group>"; };
+		03EA8F99222E987A0012342B /* objc-moninit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objc-moninit.h"; sourceTree = "<group>"; };
+		03EA8F9A222E987A0012342B /* objc-moninit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "objc-moninit.c"; sourceTree = "<group>"; };
+		03EA8F9B222E98A40012342B /* objc-private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objc-private.h"; sourceTree = "<group>"; };
+		03EA8F9C222E98A40012342B /* objc-private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "objc-private.m"; sourceTree = "<group>"; };
+		03EA8F9D222E98CE0012342B /* objc-runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objc-runtime.h"; sourceTree = "<group>"; };
+		03EA8F9E222E98CE0012342B /* objc-runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "objc-runtime.m"; sourceTree = "<group>"; };
+		03EA8F9F222E994E0012342B /* objc-sel-table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objc-sel-table.h"; sourceTree = "<group>"; };
+		03EA8FA0222E994E0012342B /* objc-sel-table.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "objc-sel-table.m"; sourceTree = "<group>"; };
+		03EA8FA1222E99B60012342B /* objc-sel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objc-sel.h"; sourceTree = "<group>"; };
+		03EA8FA2222E99B60012342B /* objc-sel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "objc-sel.m"; sourceTree = "<group>"; };
+		03EA8FA3222E99DA0012342B /* objc-sync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objc-sync.h"; sourceTree = "<group>"; };
+		03EA8FA4222E99DA0012342B /* objc-sync.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "objc-sync.m"; sourceTree = "<group>"; };
+		03EA8FA5222E9A150012342B /* objc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objc.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03EA8F7B222E93DB0012342B = {
+			isa = PBXGroup;
+			children = (
+				03EA8F82222E94090012342B /* objc-class.h */,
+				03EA8F83222E94090012342B /* objc-class.m */,
+				03EA8F84222E94B30012342B /* Protocol.h */,
+				03EA8F85222E94B30012342B /* Protocol.m */,
+				03EA8F86222E96920012342B /* Object.h */,
+				03EA8F87222E96920012342B /* Object.m */,
+				03EA8F88222E96C80012342B /* error.h */,
+				03EA8F8A222E96FE0012342B /* hashtable2.h */,
+				03EA8F8B222E96FE0012342B /* hashtable2.m */,
+				03EA8F8C222E97310012342B /* maptable.h */,
+				03EA8F8D222E97310012342B /* maptable.m */,
+				03EA8F8E222E976F0012342B /* objc-api.h */,
+				03EA8F8F222E97A10012342B /* objc-config.h */,
+				03EA8F90222E97A10012342B /* objc-config.m */,
+				03EA8F91222E97C70012342B /* objc-errors.h */,
+				03EA8F92222E97C70012342B /* objc-errors.m */,
+				03EA8F93222E97EA0012342B /* objc-exception.h */,
+				03EA8F94222E97EA0012342B /* objc-exception.m */,
+				03EA8F95222E98170012342B /* objc-file.h */,
+				03EA8F96222E98170012342B /* objc-file.m */,
+				03EA8F97222E983F0012342B /* objc-load.h */,
+				03EA8F98222E983F0012342B /* objc-load.m */,
+				03EA8F99222E987A0012342B /* objc-moninit.h */,
+				03EA8F9A222E987A0012342B /* objc-moninit.c */,
+				03EA8F9B222E98A40012342B /* objc-private.h */,
+				03EA8F9C222E98A40012342B /* objc-private.m */,
+				03EA8F9D222E98CE0012342B /* objc-runtime.h */,
+				03EA8F9E222E98CE0012342B /* objc-runtime.m */,
+				03EA8F9F222E994E0012342B /* objc-sel-table.h */,
+				03EA8FA0222E994E0012342B /* objc-sel-table.m */,
+				03EA8FA1222E99B60012342B /* objc-sel.h */,
+				03EA8FA2222E99B60012342B /* objc-sel.m */,
+				03EA8FA3222E99DA0012342B /* objc-sync.h */,
+				03EA8FA4222E99DA0012342B /* objc-sync.m */,
+				03EA8FA5222E9A150012342B /* objc.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		03EA8F7C222E93DB0012342B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 03EA8F7F222E93DB0012342B /* Build configuration list for PBXProject "Runtime" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03EA8F7B222E93DB0012342B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		03EA8F80222E93DB0012342B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		03EA8F81222E93DB0012342B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03EA8F7F222E93DB0012342B /* Build configuration list for PBXProject "Runtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EA8F80222E93DB0012342B /* Debug */,
+				03EA8F81222E93DB0012342B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03EA8F7C222E93DB0012342B /* Project object */;
+}
